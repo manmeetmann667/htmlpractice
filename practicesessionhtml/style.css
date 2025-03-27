@@ -1,24 +1,46 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 20px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.header {
-    background-color: #f4f4f4;
-    padding: 10px;
+header {
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    overflow: hidden; 
 }
 
-img, video {
-    margin: 10px;
-    border-radius: 5px;
+.Logo {
+    float: left;
 }
 
-#logo-img {
-    width: 150px;
+.Logo img {
+    height: 50px;
 }
 
-#image1, #image2 {
-    width: 200px;
-    height: auto;
+nav {
+    float: right;
+}
+
+.navbar {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header::after {
+    content: "";
+    display: block;
+    clear: both;
 }
