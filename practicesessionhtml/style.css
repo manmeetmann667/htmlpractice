@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.header {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+img, video {
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#logo-img {
+    width: 150px;
+}
+
+#image1, #image2 {
+    width: 200px;
+    height: auto;
+}
