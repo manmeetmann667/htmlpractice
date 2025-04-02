@@ -1,0 +1,39 @@
+body{
+
+    background-color: grey;
+    
+}
+
+.card{
+
+    background-color: white;
+    width: 144px;
+    height: 344px;
+    border-radius: 7px;
+
+}
+
+.img{
+    padding: 12px;
+
+}
+
+.card h1{
+    font-size: 12px;
+    padding: 5px;
+
+}
+.content p{
+    font-size: 11px;
+    padding: 4px;
+
+}
+
+.button{
+    padding: 4px;
+}
+.button span{
+    border: 2px solid;
+    padding: 4px;    
+
+}
